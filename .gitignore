@@ -1,0 +1,74 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+/chat/node_modules
+/chat/.pnp
+/chat/.pnp.js
+
+/charts/node_modules
+/charts/.pnp
+/charts/.pnp.js
+
+# testing
+/coverage
+/chat/coverage
+/charts/coverage
+
+# next.js
+/.next/
+/out/
+/chat/.next/
+/chat/out/
+/charts/.next/
+/charts/out/
+
+# production
+/build
+/chat/build
+/charts/build
+
+# misc
+.DS_Store
+*.pem
+/chat/.DS_Store
+/chat/*.pem
+/charts/.DS_Store
+/charts/*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+/chat/npm-debug.log*
+/chat/yarn-debug.log*
+/chat/yarn-error.log*
+
+/charts/npm-debug.log*
+/charts/yarn-debug.log*
+/charts/yarn-error.log*
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+/chat/.env.local
+/chat/.env.development.local
+/chat/.env.test.local
+/chat/.env.production.local
+
+/charts/.env.local
+/charts/.env.development.local
+/charts/.env.test.local
+/charts/.env.production.local
+
+# vercel
+.vercel
+/chat/.vercel
+/charts/.vercel
